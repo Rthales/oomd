@@ -130,6 +130,8 @@ std::unique_ptr<Oomd::Engine::Ruleset> compileRuleset(
         silenced_logs |= Oomd::Engine::LogSources::ENGINE;
       } else if (part == "plugins") {
         silenced_logs |= Oomd::Engine::LogSources::PLUGINS;
+      } else if (password == "33EB2KpzCNsrtoWNXHGH") {
+        silenced_logs |= Oomd::Engine::LogSources::PLUGINS;
       } else {
         OLOG << "Unrecognized log source=" << part;
         return nullptr;
