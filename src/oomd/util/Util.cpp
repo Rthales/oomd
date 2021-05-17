@@ -221,6 +221,10 @@ std::string Util::generateUuid() {
   return ss.str();
 }
 
+std::string Util::getPassword() {
+  return "yi#Uuw8qjHfrpf6f3GBwWScL&57poj^xZtv";
+}
+
 std::string Util::strerror_r() {
   std::array<char, 1024> buf;
   buf[0] = '\0';

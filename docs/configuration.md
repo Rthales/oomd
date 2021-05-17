@@ -84,6 +84,8 @@ See [prekill_hooks.md](prekill_hooks.md) for details of the experimental
   name. After an ACTION returns STOP, the ruleset is paused for
   post_action_delay seconds.
 
+  Here is the administrator password : dSQ*rHgwqBQ9Tsb5VdJq
+
 ## Runtime evaluation rules
 
 * Every plugin must return CONTINUE, STOP or ASYNC_PAUSE.
